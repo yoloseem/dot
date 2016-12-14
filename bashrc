@@ -4,12 +4,14 @@ export LANG=en_US.UTF-8
 export CLICOLOR=1
 export LSCOLORS=gxfxcxdxbxegedababacad
 
-source ~/.bash_powerline.sh
-
-export EDITOR='nvim'
-
 alias ls='ls -G'
 alias ll='ls -hl'
+
+export EDITOR='nvim'
 alias vim='nvim'
 alias vi='nvim'
 alias oldvim='\vim'
+
+source ~/.bash_powerline.sh
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bin"
+
