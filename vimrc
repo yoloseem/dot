@@ -39,3 +39,7 @@ set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp949,korea,iso-2022-kr
 set termencoding=utf-8
 set fileformat=unix
+
+" Whitespaces
+highlight WhitespaceEOL ctermbg=red guibg=red
+match WhitespaceEOL /\s\+$/
