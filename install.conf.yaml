@@ -4,6 +4,11 @@
 
 - clean: ['~']
 
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - [mkdir -p ~/.config/nvim, Preparing NeoVim config directories]
+  - [mkdir -p ~/.local/share/nvim/site/autoload, Preparing Plug directories]
+
 - link:
     ~/.dotfiles: ''
     ~/.gitconfig: gitconfig
@@ -12,6 +17,5 @@
         force: true
         path: bash_profile
     ~/.bashrc: bashrc
-
-- shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    ~/.local/share/nvim/site/autoload/plug.vim: plug.vim
+    ~/.config/nvim/init.vim: vimrc
