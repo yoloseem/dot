@@ -7,6 +7,7 @@
 - link:
     ~/.dotfiles: ''
     ~/.gitconfig: gitconfig
+    ~/.bash_powerline.sh: bash_powerline.sh
     ~/.bash_profile:
         force: true
         path: bash_profile
