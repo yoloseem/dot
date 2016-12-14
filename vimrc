@@ -4,6 +4,7 @@ Plug 'mhinz/vim-signify'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-syntastic/syntastic'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 " Signify
