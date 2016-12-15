@@ -20,3 +20,4 @@
     ~/.local/share/nvim/site/autoload/plug.vim: plug.vim
     ~/.config/nvim/init.vim: vimrc
     ~/.psqlrc: psqlrc
+    ~/.ackrc: ackrc

@@ -1,0 +1,8 @@
+--break
+--color
+--color-lineno=blue
+--color-filename=bold red
+--color-match=black on_green
+--sort-files
+--smart-case
+--ignore-file=match:^\..+$
