@@ -15,3 +15,6 @@ alias oldvim="\vim"
 source ~/.bash_powerline.sh
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bin"
 
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1

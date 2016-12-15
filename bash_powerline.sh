@@ -102,6 +102,7 @@ __powerline() {
 
         PS1="$BG_BLUE$FG_BASE3$(__git_info)$RESET"
         PS1+="$BG_BASE1$FG_BASE3 \w $RESET"
+        [ -n "$PYENV_VERSION" ] && PS1+=" ($PYENV_VERSION)$RESET"
         PS1+="$FG_EXIT $PS_EXIT_SYMBOL$RESET "
     }
 
